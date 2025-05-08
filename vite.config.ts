@@ -1,11 +1,13 @@
 import { join } from 'path';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
+import react from '@vitejs/plugin-react-swc';
 
 export default defineConfig({
   root: __dirname,
   cacheDir: './node_modules/.vite/libs/core',
   plugins: [
+    react(),
     dts({
       entryRoot: 'src',
       tsconfigPath: join(__dirname, 'tsconfig.lib.json'),
