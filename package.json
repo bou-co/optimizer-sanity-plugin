@@ -24,6 +24,7 @@
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
     "@typescript-eslint/utils": "^8.31.1",
+    "@vitejs/plugin-react-swc": "^3.9.0",
     "eslint": "^9.25.1",
     "eslint-config-prettier": "^10.1.2",
     "lerna": "^8.2.2",
@@ -36,7 +37,6 @@
   },
   "dependencies": {
     "@sanity/ui": "^2.15.17",
-    "@vitejs/plugin-react-swc": "^3.9.0",
     "react": ">=18.3.1",
     "sanity": "^3.88.2"
   },
