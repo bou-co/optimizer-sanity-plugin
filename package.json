@@ -1,0 +1,55 @@
+{
+  "name": "@bou-co/optimizer-sanity-plugin",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build",
+    "publish:dev": "npm run build && npm publish --tag dev",
+    "publish:latest": "npm run build && npm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bou-co/optimizer-sanity-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bou-co/optimizer-sanity-plugin/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "@typescript-eslint/utils": "^8.31.1",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "lerna": "^8.2.2",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2",
+    "vite": "^6.3.4",
+    "vite-plugin-dts": "^4.5.3"
+  },
+  "dependencies": {
+    "@sanity/ui": "^2.15.17",
+    "react": ">=18.3.1",
+    "sanity": "^3.88.2"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ]
+}
