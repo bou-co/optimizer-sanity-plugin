@@ -2,6 +2,8 @@
 
 Use https://optimizer.bou.app/ inside your Sanity Studio to optimize images during upload.
 
+![Bou Image and PDF optimizer in Sanity Studio](https://github.com/user-attachments/assets/9d9a2c13-ad68-4065-b083-ea691d7351a8)
+
 ## Usage
 
 Install the package from NPM:
@@ -34,3 +36,7 @@ export default defineConfig({
   },
 });
 ```
+
+Use the new asset source from any file/image field:
+
+![use bou image optimizer](https://github.com/user-attachments/assets/f4dcfa8c-a610-4bb0-8546-11ce504f9fbf)
