@@ -2,17 +2,10 @@ import { AssetSource, definePlugin } from 'sanity';
 import BouOptimizer from './optimizer';
 import BouOptimizerIcon from './icon';
 
-export const imageAssetSource: AssetSource = {
+export const assetSource: AssetSource = {
   icon: BouOptimizerIcon,
   name: 'bouOptimizer',
-  title: 'Bou Image Optimizer',
-  component: BouOptimizer,
-};
-
-export const pdfAssetSource: AssetSource = {
-  icon: BouOptimizerIcon,
-  name: 'bouOptimizer',
-  title: 'Bou PDF Optimizer',
+  title: 'Bou Image & PDF Optimizer',
   component: BouOptimizer,
 };
 
@@ -21,12 +14,12 @@ export const bouOptimizer = definePlugin({
   form: {
     file: {
       assetSources: (prev) => {
-        return [...prev, imageAssetSource];
+        return [...prev, assetSource];
       },
     },
     image: {
       assetSources: (prev) => {
-        return [...prev, pdfAssetSource];
+        return [...prev, assetSource];
       },
     },
   },
