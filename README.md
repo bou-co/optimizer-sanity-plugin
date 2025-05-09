@@ -4,6 +4,8 @@ Use https://optimizer.bou.app/ inside your Sanity Studio to optimize images duri
 
 ![Bou Image and PDF optimizer in Sanity Studio](https://github.com/user-attachments/assets/9d9a2c13-ad68-4065-b083-ea691d7351a8)
 
+[NPM](https://www.npmjs.com/package/@bou-co/optimizer-sanity-plugin) | [GitHub](https://github.com/bou-co/optimizer-sanity-plugin)
+
 ## Usage
 
 Install the package from NPM:
