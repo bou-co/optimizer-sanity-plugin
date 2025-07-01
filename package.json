@@ -36,9 +36,9 @@
     "vite-plugin-dts": "^4.5.4"
   },
   "dependencies": {
-    "@sanity/ui": "^2.16.2",
+    "@sanity/ui": ">=2.16.2",
     "react": ">=18.3.1",
-    "sanity": "^3.95.0"
+    "sanity": ">=3.95.0"
   },
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
