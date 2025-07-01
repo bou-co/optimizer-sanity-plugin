@@ -19,26 +19,26 @@
     "url": "https://github.com/bou-co/optimizer-sanity-plugin/issues"
   },
   "devDependencies": {
-    "@types/node": "^22.15.3",
-    "@types/react": "^19.1.2",
-    "@typescript-eslint/eslint-plugin": "^8.31.1",
-    "@typescript-eslint/parser": "^8.31.1",
-    "@typescript-eslint/utils": "^8.31.1",
-    "@vitejs/plugin-react-swc": "^3.9.0",
-    "eslint": "^9.25.1",
-    "eslint-config-prettier": "^10.1.2",
-    "lerna": "^8.2.2",
-    "prettier": "^3.5.3",
+    "@types/node": "^22.15.34",
+    "@types/react": "^19.1.8",
+    "@typescript-eslint/eslint-plugin": "^8.35.1",
+    "@typescript-eslint/parser": "^8.35.1",
+    "@typescript-eslint/utils": "^8.35.1",
+    "@vitejs/plugin-react-swc": "^3.10.2",
+    "eslint": "^9.30.0",
+    "eslint-config-prettier": "^10.1.5",
+    "lerna": "^8.2.3",
+    "prettier": "^3.6.2",
     "ts-node": "^10.9.2",
     "tslib": "^2.8.1",
     "typescript": "^5.8.2",
     "vite": "^6.3.4",
-    "vite-plugin-dts": "^4.5.3"
+    "vite-plugin-dts": "^4.5.4"
   },
   "dependencies": {
-    "@sanity/ui": "^2.15.17",
+    "@sanity/ui": "^2.16.2",
     "react": ">=18.3.1",
-    "sanity": "^3.88.2"
+    "sanity": "^3.95.0"
   },
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
